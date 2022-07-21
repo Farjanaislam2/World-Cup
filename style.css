@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.container {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #161616;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 80px;
+}
+
+.top-sec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.half-width {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.half-width img {
+    margin-left: 70px;
+    width: 450px;
+}
+
+.half-width h1 {
+    margin: 0;
+}
+
+.first-btn button {
+    width: 120px;
+    padding: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: none;
+}
+
+/* 
+button */
+.main-flex {
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #161616;
+    width: 300px;
+    padding: 15px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+.upcoming button,
+.group button,
+.blog button {
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.blog button {
+    background-color: #DD0000;
+    color: white;
+}
+
+/* players part */
+
+
+.match-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.m-card {
+    height: 240px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-pad {
+    padding: 15px;
+}
+
+.pad2 {
+    text-align: center;
+}
+
+.card-pad p {
+    color: #4D4D4D;
+}
+
+.transfer-btn button {
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.match-duration,
+.match-comment {
+    display: flex;
+    gap: 8px;
+}
+
+.match-info {
+    display: flex;
+    gap: 40px;
+}
+
+/* 2nd page  */
+
+.flag {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+hr {
+    border: 1px solid gray;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.services {
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+}
+
+.icons {
+    margin-top: 30px;
+    margin-left: 650px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+
+}
+
+/*............
+ Media query
+ ............. */
+
+/* Mobile Devices */
+@media only screen and(max-width:688px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .side-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
